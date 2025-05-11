@@ -119,4 +119,4 @@ sudo apt upgrade
 
 
 
-> Tip: Always refer to the [official documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for any updates.
+> Always refer to the [official documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for any updates.
