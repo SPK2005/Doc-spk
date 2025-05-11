@@ -4,16 +4,16 @@
 
 To resize your disk space using **GParted** before installing Ubuntu:
 
-📺 [Watch this tutorial on YouTube](https://youtu.be/LftHqxf11I0?si=GkHUX2vpZOIQ7Z4k)
+[GParted Tutorial](https://youtu.be/LftHqxf11I0?si=GkHUX2vpZOIQ7Z4k)
 
 ## 2. Create Ubuntu 22.04 Bootable USB
 
 - Download Ubuntu 22.04 Desktop image from the official site:  
-  🔗 [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)
+[https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)
 
 - Burn the image to a USB drive (minimum 8GB capacity) using tools like Rufus (Windows) or `Startup Disk Creator` (Ubuntu).
 
-📺 [Video Guide](https://youtu.be/QKn5U2esuRk?feature=shared)
+[Ubuntu 22.04 Dual Boot Setup](https://youtu.be/QKn5U2esuRk?feature=shared)
 
 ## 3. Boot from USB and Install Ubuntu
 
@@ -25,4 +25,4 @@ To resize your disk space using **GParted** before installing Ubuntu:
 
 ---
 
-✅ After installation, you’ll have the option to choose between Windows and Ubuntu on system startup.
+ After installation, you’ll have the option to choose between Windows and Ubuntu on system startup.
