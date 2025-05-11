@@ -2,7 +2,7 @@
 
 Official ROS 2 Humble installation steps for Ubuntu, adapted from [docs.ros.org](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html#setup-sources).
 
----
+
 
 ## Set Locale
 
@@ -19,7 +19,7 @@ export LANG=en_US.UTF-8
 locale  # verify settings
 ```
 
----
+
 
 ## Setup Sources
 
@@ -43,7 +43,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
----
+
 
 ## Install ROS 2 Packages
 
@@ -73,7 +73,7 @@ sudo apt install ros-humble-desktop
 sudo apt install ros-dev-tools
 ```
 
----
+
 
 ## Environment Setup
 
@@ -90,7 +90,7 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
----
+
 
 ## ROS 1 Bridge (Optional)
 
@@ -98,7 +98,7 @@ Allows communication between ROS 1 and ROS 2 topics.
 
 Link: [ROS 1 Bridge GitHub](https://github.com/ros2/ros1_bridge/blob/master/README.md)
 
----
+
 
 ## Uninstall Instructions
 
@@ -117,6 +117,6 @@ sudo apt autoremove
 sudo apt upgrade
 ```
 
----
+
 
 > Tip: Always refer to the [official documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for any updates.
